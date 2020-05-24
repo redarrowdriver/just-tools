@@ -31,7 +31,7 @@ if os.path.isfile(args.log):
 def logWriter(message):
     logFile = open(args.log, 'a')
     logFile.write(message)
-    logFile.writer(os.linesep)
+    logFile.write(os.linesep)
     logFile.close()
 
 
