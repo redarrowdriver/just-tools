@@ -5,7 +5,6 @@
 import hashlib
 import os
 import argparse
-from collections import defaultdict
 
 parser = argparse.ArgumentParser(description='Find files with a matching md5 hash.')
 parser.add_argument('-d', '--dir', help='The directory to scan')
