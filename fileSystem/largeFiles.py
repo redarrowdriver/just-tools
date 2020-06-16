@@ -4,7 +4,7 @@
 import os
 import argparse
 
-parser = argparse.ArgumentParser(description='Find fils that are over a set file size. Displayed in MBs.')
+parser = argparse.ArgumentParser(description='Find files that are over a set file size. Displayed in MBs.')
 parser.add_argument('-d', '--dir', help='The directory to scan.')
 parser.add_argument('-l', '--log', help='The location of the log file.', default='largeFiles.txt')
 parser.add_argument('-s', '--size', help='The large file size limit. Files equal to or larger than this size'
